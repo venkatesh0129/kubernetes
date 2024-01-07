@@ -26,3 +26,4 @@ Connecting the Worker nodes to the master node is known as Kubernetes cluster se
 > Components in Master Node: API Server, Scheduler, Controller-Manager, etcd
 > When ever we setup kubernetes cluster, by default in kubernetes master,
   there will be API Server, Scheduler, Controller-Manager, etcd.
+
