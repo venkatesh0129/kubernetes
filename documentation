@@ -1,1 +1,25 @@
-Step: 1
+Scaling: adding the number of pods in the cluster
+Descaling: deleting the number of pods in the cluster
+In Docker swarm there is no scaling and Descaling Concept
+In Docker swarm there is no Container load balancing Concept.
+
+1. Can u please explain kubernetes Architecture?
+Ans: 
+in k8s there are two components: master and worker nodes
+Each worker node can be traeted as on environment(EX: dev/QA/PROD)
+Connecting the Worker nodes to the master node is known as Kubernetes cluster setup
+
+==> In order to setup kubernetes cluster 
+    we should install Docker in Master node as well as worker node
+==> There are different components in Master node as well as worker node.
+
+		*Worker Node*
+==> Components in Worker Node: Pods, Docker, Kubelet, Kube-proxy
+
+1. 		**Pods**
+==>	 Group of containers is called a Pod.
+==> But this is not recommended way, in real time we use one container in one pod.
+==>  In Docker generally,we use one instance to create number of containers 
+     and provide number of applications to end user.
+==>
+
